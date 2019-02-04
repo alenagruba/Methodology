@@ -1,4 +1,4 @@
->   **Cross-Industry Standard Process**
+# **Cross-Industry Standard Process**
 
 Le modèle de processus Cross-Industry Standard Process (CRISP) fournit la vue
 d'ensemble du cycle de vie d'un projet Data Science. Il contient les phases d'un
@@ -22,14 +22,14 @@ brièvement chaque phase.
 
 Figure 1. Approche du Cross-Industry Standard Process
 
-Business Understanding
+**Business Understanding**
 
 Cette phase initiale est nécessaire pour comprendre les objectifs et les
 exigences du projet d'un point de vue commercial, puis sert à convertir ces
 connaissances à la définition des missions du projet et un plan préliminaire
 conçu pour atteindre les objectifs.
 
-Data Understanding
+**Data Understanding**
 
 La phase de compréhension des données commence par la collecte des données
 initiales et se poursuit par des activités qui permettent de familiariser avec
@@ -37,7 +37,7 @@ les données, d'identifier les problèmes de qualité des données, de découvri
 premiers renseignements sur les données et / ou de détecter des sous-ensembles
 intéressants.
 
-Data Preparation
+**Data Preparation**
 
 La phase de préparation des données contient toutes les activités nécessaires à
 la construction de l'ensemble de données finale – données qui seront introduites
@@ -47,7 +47,7 @@ fois et non dans un ordre prescrit. Les tâches incluent la sélection des table
 des enregistrements et des attributs, ainsi que la transformation et le
 nettoyage des données pour les outils de modélisation.
 
-Modeling
+**Modeling**
 
 Dans cette phase, diverses techniques de modélisation sont sélectionnées et
 appliquées, et leurs paramètres sont calibrés aux valeurs optimales.
@@ -56,7 +56,7 @@ d'exploration de données. Certaines techniques ont des exigences spécifiques s
 la forme des données. Par conséquent, il est souvent nécessaire de revenir à la
 phase de préparation des données.
 
-Evaluation
+**Evaluation**
 
 Durant cet étape, le chercheur construit un modèle (ou des modèles) qui semble
 avoir une haute qualité du point de vue de l'analyse des données. Avant de
@@ -64,7 +64,7 @@ procéder au déploiement final du modèle, il est important de bien l'évaluer 
 de revoir les étapes exécutées pour le créer, afin de s'assurer que le modèle
 atteint correctement les objectifs du client final.
 
-Deployment
+**Deployment**
 
 Généralement, la création du modèle n'est pas la fin du projet. Même si le but
 du modèle est d'améliorer la connaissance sur des données, les connaissances
