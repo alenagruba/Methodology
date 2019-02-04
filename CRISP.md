@@ -19,6 +19,7 @@ hypothèses. Les processus d'exploration et d’analyse de données ultérieurs
 bénéficieront des expériences des précédents. Dans ce qui suit, nous décrivons
 brièvement chaque phase.
 
+<img src="img/Metodology_0.png">
 
 Figure 1. Approche du Cross-Industry Standard Process
 
