@@ -18,6 +18,8 @@ prédictive. Les projets de sciences des données exploratoires et les projets
 d’analytique ad hoc peuvent également tirer parti de ce processus. Mais, dans ce
 cas, certaines des étapes décrites peuvent s’avérer superflues.
 
+<img src="img/Metodology_1.png">
+
 Figure 1. Approche du Team Data Science Process
 
 Le cycle de vie décrit les étapes majeures que les projets exécutent
@@ -37,14 +39,14 @@ sont associés à des rôles de projet :
 
 -   coordinateur de projet.
 
-![https://docs.microsoft.com/fr-fr/azure/machine-learning/team-data-science-process/media/overview/tdsp-lifecycle2.png](media/eecb20aa3da5f18faf14f2462059a8df.png)
+![https://docs.microsoft.com/fr-fr/azure/machine-learning/team-data-science-process/media/overview/tdsp-lifecycle2.png](img/Metodology_2.png)
 
 Figure 2. Cycle de vie du processus TDSP
 
 La représentation visuelle de ces tâches et artefacts est présentée sur la
 figure 3.
 
-![https://docs.microsoft.com/fr-fr/azure/machine-learning/team-data-science-process/media/overview/tdsp-tasks-by-roles.png](media/4f058481416ed878d7c04ac469cf74c5.png)
+![https://docs.microsoft.com/fr-fr/azure/machine-learning/team-data-science-process/media/overview/tdsp-tasks-by-roles.png](img/Metodology_3.png)
 
 Figure 3. Grille des tâches (en bleu) et des artefacts (en vert) associés à
 chaque étape du cycle de vie **du processus TDSP** (sur l’axe horizontal) pour
