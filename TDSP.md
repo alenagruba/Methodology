@@ -1,7 +1,8 @@
 **Requirements**
 
-/Methodolody/CRISP.docx
-[CRISP](/CRISP)
+[/Methodolody/CRISP](/CRISP.md)
+
+
 **Team Data Science Process**
 
 Team Data Science Process (TDSP) fournit une approche systématique pour la
