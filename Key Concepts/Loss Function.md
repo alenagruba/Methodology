@@ -22,9 +22,9 @@ n – Number of training examples
 
 i – ith training example in a data set
 
-$$y_{i}$$ – truth label for ith training example
+![equation](http://latex.codecogs.com/gif.latex?$$y_{i}$$) – truth label for ith training example
 
-$${\hat{y}}_{i}$$ – Prediction for ith training example.
+![equation](http://latex.codecogs.com/gif.latex?$${\hat{y}}_{i}$$) – Prediction for ith training example.
 
 ! Regression functions predict a quantity, and classification functions predict
 a label.
@@ -43,17 +43,13 @@ Squared Hinge Loss, Hinge Loss
 
 Stands for Least Absolute Deviations. Also known as LAD.
 
-$$
-L1LossFunction = \ \sum_{i = 1}^{n}\left| y_{i} - \ \hat{y_{i}} \right|
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;L1LossFunction&space;=&space;\&space;\sum_{i&space;=&space;1}^{n}\left|&space;y_{i}&space;-&space;\&space;\hat{y_{i}}&space;\right|&space;$$)
 
 *L2 Loss function*
 
 stands for Least Square Errors. Also known as LS.
 
-$$
-L2LossFunction = \ \sum_{i = 1}^{n}\left| y_{i} - \ \hat{y_{i}} \right|
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;L2LossFunction&space;=&space;\&space;\sum_{i&space;=&space;1}^{n}\left|&space;y_{i}&space;-&space;\&space;\hat{y_{i}}&space;\right|&space;$$)
 
 Generally, L2 Loss Function is preferred in most of the cases. But when the
 outliers are present in the dataset, then the L2 Loss Function does not perform
@@ -65,18 +61,14 @@ then use L2 Loss Function.
 
 *Mean Bias Error*
 
-$$
-MBE = \ \frac{\sum_{i = 1}^{n}{{(y}_{i} - \ \hat{y_{i}})}}{n}
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;MBE&space;=&space;\&space;\frac{\sum_{i&space;=&space;1}^{n}{{(y}_{i}&space;-&space;\&space;\hat{y_{i}})}}{n}&space;$$)
 
 Clearly there’s a need for caution as positive and negative errors could cancel
 each other out.
 
 *Mean Absolute Error / L1 Loss*
 
-$$
-MAE = \ \frac{\sum_{i = 1}^{n}\left| y_{i} - \ \hat{y_{i}} \right|}{n}
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;MAE&space;=&space;\&space;\frac{\sum_{i&space;=&space;1}^{n}\left|&space;y_{i}&space;-&space;\&space;\hat{y_{i}}&space;\right|}{n}&space;$$)
 
 Mean absolute error is measured as the average of sum of absolute differences
 between predictions and actual observations. MAE loss is useful if the training
@@ -86,9 +78,7 @@ data is corrupted with outliers.
 
 *Mean Squared Error / Quadratic Loss / L2 Loss*
 
-$$
-MSE = \ \frac{\sum_{i = 1}^{n}{(y_{i} - \ \hat{y_{i}})}^{2}}{n}
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;MSE&space;=&space;\&space;\frac{\sum_{i&space;=&space;1}^{n}{(y_{i}&space;-&space;\&space;\hat{y_{i}})}^{2}}{n}&space;$$)
 
 Mean square error is measured as the average of squared difference between
 predictions and actual observations. The most commonly used regression loss
@@ -101,25 +91,17 @@ error is more robust to outliers.
 
 *Mean absolute percentage error*
 
-$$
-MAPE = \ \frac{1}{n}*\sum_{i = 1}^{n}\frac{\left| y_{i} - \ \hat{y_{i}} \right|}{max(\left| y_{i} \right|,\ \epsilon)}*100
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;MAPE&space;=&space;\&space;\frac{1}{n}*\sum_{i&space;=&space;1}^{n}\frac{\left|&space;y_{i}&space;-&space;\&space;\hat{y_{i}}&space;\right|}{max(\left|&space;y_{i}&space;\right|,\&space;\epsilon)}*100&space;$$)
 
 *Mean squared logarithmic error*
 
-$$
-\text{MSLE} = \ \frac{1}{n}*\sum_{i = 1}^{n}{((log(y_{i}}{+ 1) - \ log({\hat{y}}_{i} + 1))}^{2}
-$$
+<img src="http://latex.codecogs.com/gif.latex?$$MSLE&space;=&space;\&space;\frac{1}{n}*\sum_{i&space;=&space;1}^{n}{((log(y_{i}}{&plus;&space;1)&space;-&space;\&space;log({\hat{y}}_{i}&space;&plus;&space;1))}^{2}&space;$$" title="$$MSLE = \ \frac{1}{n}*\sum_{i = 1}^{n}{((log(y_{i}}{+ 1) - \ log({\hat{y}}_{i} + 1))}^{2} $$" />
 
 *Log cosh*
 
-$$
-\text{Log\ cosh} = \ \frac{1}{n}*\sum_{i = 1}^{n}{log(cosh(}{\hat{y}}_{i} - \ y_{i}))
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;{Log\&space;cosh}&space;=&space;\&space;\frac{1}{n}*\sum_{i&space;=&space;1}^{n}{log(cosh(}{\hat{y}}_{i}&space;-&space;\&space;y_{i}))&space;$$)
 
-$$
-\cosh\left( t \right) = \frac{\exp\left( t \right) + exp( - t)}{2}
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;\cosh\left(&space;t&space;\right)&space;=&space;\frac{\exp\left(&space;t&space;\right)&space;&plus;&space;exp(&space;-&space;t)}{2}&space;$$)
 
 ![https://cdn-images-1.medium.com/max/1000/1\*BAbgW_JdwyAWLZR2dE1Ujg.png](img/lf_03.png)
 
@@ -131,12 +113,7 @@ more favourable).
 
 *Huber Loss / Smooth Mean Absolute Error*
 
-$$
-L_{\delta} = \left\{ \begin{matrix}
-\frac{1}{2}*(y_{i} - {{\hat{y}}_{i})}^{2}\text{\ \ \ for\ }\left| y_{i} - {\hat{y}}_{i} \right| \leq \delta \\
-\delta\left| y_{i} - {\hat{y}}_{i} \right| - \frac{1}{2}\delta^{2}\text{\ \ \ otherwise} \\
-\end{matrix} \right.\ 
-$$
+<img src="http://latex.codecogs.com/gif.latex?$$&space;L_{\delta}&space;=&space;\left\{&space;\begin{matrix}&space;\frac{1}{2}*(y_{i}&space;-&space;{{\hat{y}}_{i})}^{2}\text{\&space;\&space;\&space;for\&space;}\left|&space;y_{i}&space;-&space;{\hat{y}}_{i}&space;\right|&space;\leq&space;\delta&space;\\&space;\delta\left|&space;y_{i}&space;-&space;{\hat{y}}_{i}&space;\right|&space;-&space;\frac{1}{2}\delta^{2}\text{\&space;\&space;\&space;otherwise}&space;\\&space;\end{matrix}&space;\right.\&space;$$" title="$$ L_{\delta} = \left\{ \begin{matrix} \frac{1}{2}*(y_{i} - {{\hat{y}}_{i})}^{2}\text{\ \ \ for\ }\left| y_{i} - {\hat{y}}_{i} \right| \leq \delta \\ \delta\left| y_{i} - {\hat{y}}_{i} \right| - \frac{1}{2}\delta^{2}\text{\ \ \ otherwise} \\ \end{matrix} \right.\ $$" />
 
 Huber loss is less sensitive to outliers in data than the squared error loss.
 It’s also differentiable at 0. It’s basically absolute error, which becomes
@@ -156,9 +133,7 @@ minimized “appropriately” with L2.
 Poisson loss function is a measure of how the predicted distribution diverges
 from the expected distribution.
 
-$$
-L = \frac{1}{n}\sum_{i = 1}^{n}{({\hat{y}}_{i} - y_{i}*\log\left( {\hat{y}}_{i} \right))}
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;L&space;=&space;\frac{1}{n}\sum_{i&space;=&space;1}^{n}{({\hat{y}}_{i}&space;-&space;y_{i}*\log\left(&space;{\hat{y}}_{i}&space;\right))}&space;$$)
 
 **Classification Losses**
 
@@ -167,26 +142,20 @@ $$
 The hinge loss is used for “maximum-margin” classification, most notably for
 support vector machines (SVMs).
 
-$$
-SVMLoss = \ \frac{1}{n}\sum_{i = 1}^{n}{max(1 - {\hat{y}}_{i}*y_{i},0)}
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;SVMLoss&space;=&space;\&space;\frac{1}{n}\sum_{i&space;=&space;1}^{n}{max(1&space;-&space;{\hat{y}}_{i}*y_{i},0)}&space;$$)
 
 *Squared Hinge Loss / Squared Multi class SVM Loss*
 
-$$y_{i}$$*𝛜 {-1,1}*
+![equation](http://latex.codecogs.com/gif.latex?$$y_{i}$$) 𝛜 {-1,1}
 
-$$
-SVMLossSquared = \ \frac{1}{n}\sum_{i = 1}^{n}{(max(1 - {\hat{y}}_{i}*y_{i},0))^{2}}
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;SVMLossSquared&space;=&space;\&space;\frac{1}{n}\sum_{i&space;=&space;1}^{n}{(max(1&space;-&space;{\hat{y}}_{i}*y_{i},0))^{2}}&space;$$)
 
 *Cross Entropy Loss / Negative Log Likelihood / Binary Cross Entropy*
 
 This is the most common setting for classification problems. Cross-entropy loss
 increases as the predicted probability diverges from the actual label.
 
-$$
-CrossEntropyLoss = \  - \frac{1}{n}\sum_{i = 1}^{n}{\lbrack y_{i}\log\left( {\hat{y}}_{i} \right) + \left( 1 - y_{i} \right)\log\left( 1 - {\hat{y}}_{i} \right)\rbrack}
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;CrossEntropyLoss&space;=&space;\&space;-&space;\frac{1}{n}\sum_{i&space;=&space;1}^{n}{\lbrack&space;y_{i}\log\left(&space;{\hat{y}}_{i}&space;\right)&space;&plus;&space;\left(&space;1&space;-&space;y_{i}&space;\right)\log\left(&space;1&space;-&space;{\hat{y}}_{i}&space;\right)\rbrack}&space;$$)
 
 In short, we are just multiplying the log of the actual predicted probability
 for the ground truth class.
@@ -197,9 +166,7 @@ KL Divergence, also known as relative entropy, information divergence/gain, is a
 measure of how one probability distribution diverges from a second expected
 probability distribution.
 
-$$
-L = \ \frac{1}{n}\sum_{i = 1}^{n}{\lbrack y_{i} - log(\frac{y_{i}}{{\hat{y}}_{i}})\rbrack} = \frac{1}{n}\sum_{i = 1}^{n}{\left( y_{i}*\log\left( y_{i} \right) \right) - \frac{1}{n}\sum_{i = 1}^{n}{(y_{i}*\log\left( {\hat{y}}_{i} \right))}}
-$$
+![equation](http://latex.codecogs.com/gif.latex?$$&space;L&space;=&space;\&space;\frac{1}{n}\sum_{i&space;=&space;1}^{n}{\lbrack&space;y_{i}&space;-&space;log(\frac{y_{i}}{{\hat{y}}_{i}})\rbrack}&space;=&space;\frac{1}{n}\sum_{i&space;=&space;1}^{n}{\left(&space;y_{i}*\log\left(&space;y_{i}&space;\right)&space;\right)&space;-&space;\frac{1}{n}\sum_{i&space;=&space;1}^{n}{(y_{i}*\log\left(&space;{\hat{y}}_{i}&space;\right))}}&space;$$)
 
 References :
 
