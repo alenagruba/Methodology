@@ -1,3 +1,5 @@
+**Derivative**
+
 The derivative of a function represents how the function changes with respect to
 one of its parameters, and points in the direction of the increase of the
 function. If we have a function *f* that has parameter *p*, then the
@@ -28,3 +30,5 @@ Useful :
 
 [Essence of
 calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+
+**Next Step** : [Loss Function](/Key%20Concepts/Loss%20Function.md)

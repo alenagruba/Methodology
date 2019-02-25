@@ -1,6 +1,6 @@
 **Requirements**
 
-[/Methodolody/CRISP](/CRISP.md)
+[/Methodology/CRISP](/CRISP.md)
 
 
 **Team Data Science Process**

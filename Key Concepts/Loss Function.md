@@ -1,4 +1,10 @@
+**Requirements**
+
+[/Methodology/Key Concepts/Derivative](/Key%20Concepts/Derivative.md)
+
+
 **Loss Function**
+
 
 Evaluates how well specific algorithm models the given data. If predictions
 deviate too much from actual results, loss function would cough up a very large
@@ -168,10 +174,12 @@ probability distribution.
 
 ![equation](http://latex.codecogs.com/gif.latex?$$&space;L&space;=&space;\&space;\frac{1}{n}\sum_{i&space;=&space;1}^{n}{\lbrack&space;y_{i}&space;-&space;log(\frac{y_{i}}{{\hat{y}}_{i}})\rbrack}&space;=&space;\frac{1}{n}\sum_{i&space;=&space;1}^{n}{\left(&space;y_{i}*\log\left(&space;y_{i}&space;\right)&space;\right)&space;-&space;\frac{1}{n}\sum_{i&space;=&space;1}^{n}{(y_{i}*\log\left(&space;{\hat{y}}_{i}&space;\right))}}&space;$$)
 
-References :
+Useful :
 
-<https://towardsdatascience.com/common-loss-functions-in-machine-learning-46af0ffc4d23>
+[Common Loss functions in ML](https://towardsdatascience.com/common-loss-functions-in-machine-learning-46af0ffc4d23)
 
-<https://heartbeat.fritz.ai/5-regression-loss-functions-all-machine-learners-should-know-4fb140e9d4b0>
+[5 Regression Loss Functions All Machine Learners Should Know](https://heartbeat.fritz.ai/5-regression-loss-functions-all-machine-learners-should-know-4fb140e9d4b0)
 
-<https://isaacchanghau.github.io/post/loss_functions/>
+[Loss Functions in Neural Networks](https://isaacchanghau.github.io/post/loss_functions/)
+
+**Next Step** : [Over-fitting](/Key%20Concepts/Over-fitting.md)
